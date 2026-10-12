@@ -22,7 +22,7 @@ from sheet_template import create_sheet
 APP_DIR = Path(__file__).resolve().parent
 STORE = TemplateStore(APP_DIR / "templates")
 
-st.set_page_config(page_title="OMR Grader", page_icon="✅", layout="wide")
+st.set_page_config(page_title="Grader", page_icon="✅", layout="wide")
 
 st.markdown(
     """
